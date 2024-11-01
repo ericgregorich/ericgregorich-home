@@ -8,28 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="h-card">
+<body itemtype="https://schema.org/ProfilePage" itemscope>
+    <meta itemprop="dateCreated" content="2024-11-1T12:00:00-00:00" />
+    <meta itemprop="dateModified" content="2024-11-1T12:00:00-00:00" />
+    <div class="h-card" itemprop="mainEntity" itemtype="https://schema.org/Person">
         <header>
-            <img class="u-photo" src="Eric Gregorich.jpg" alt="Eric Gregorich" width="100" />
-            <h1 class="p-name"><a href="https://ericgregorich.com" class="u-url u-uid">Eric Gregorich</a></h1>
-            <h2 class="p-job-title">Solutions Architect</h2>
+            <img class="u-photo" temprop="image" src="Eric Gregorich.jpg" alt="Eric Gregorich" width="100" />
+            <h1 class="p-name" itemprop="name" id="real-name"><a href="https://ericgregorich.com" class="u-url u-uid">Eric Gregorich</a></h1>
+            <h2 class="p-job-title" itemprop="description">Solutions Architect</h2>
         </header>
         <main>
             <section>
                 <p class="p-note">Solutions Architect specializing in the Microsoft Power Platform, SharePoint, Azure,
                     and Dataverse.</p>
-                <p>I have a <a href="https://focustivity.blog" rel="me">Personal Blog</a> and <a
+                <p>I have a <a itemprop="sameAs" href="https://focustivity.blog" rel="me">Personal Blog</a> and <a itemprop="sameAs"
                         href="https://micro.blog/account/plugins/view/82" rel="me">custom theme</a> for Micro.blog.
             </section>
             <section>
                 <ul>
                     <li class="p-locality"><img src="location-dot-solid.svg" width="15" />Atlanta, Georgia</li>
-                    <li><img src="envelope-solid.svg" width="15" /><a href="https://letterbird.co/other-book0921"
+                    <li><img src="envelope-solid.svg" width="15" /><a itemprop="sameAs" href="https://letterbird.co/other-book0921"
                             class="u-url">Email</a></li>
-                    <li><img src="github-brands-solid.svg" width="15" /><a href="https://github.com/ericgregorich"
+                    <li><img src="github-brands-solid.svg" width="15" /><a itemprop="sameAs" href="https://github.com/ericgregorich"
                             rel="me" class="u-url">GitHub</a></li>
-                    <li><img src="microblog-brands-solid.svg" width="15" /><a href="https://micro.blog/ericgregorich"
+                    <li><img src="microblog-brands-solid.svg" width="15" /><a itemprop="sameAs" href="https://micro.blog/ericgregorich"
                             rel="me" class="u-url">Micro.blog</a></li>
                 </ul>
             </section>
