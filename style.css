@@ -1,13 +1,13 @@
 body {
     font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    padding: 0;
     max-width: 600px;
     background-color: #F5F5F5;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 10%;
 }
 
-.content {
+.h-card {
+    margin: 20px;
     background-color: #FFF;
     padding: 20px;
     border-radius: 2px;
