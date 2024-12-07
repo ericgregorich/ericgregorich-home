@@ -42,7 +42,12 @@ h2 {
     font-size: 1.5em;
     color: #637681;
     font-weight: 400;
-    margin: 0;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #637681;
+    font-weight: 400;
 }
 
 ul {
