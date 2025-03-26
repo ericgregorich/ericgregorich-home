@@ -1,21 +1,23 @@
 body {
-    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background-color: #F5F5F5;
+    font-family: "SF Pro Display", -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
+    background-color: #f0ede8;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    line-height: 1.5;
     margin: 0;
+    font-size: 18px;
 }
 
 .h-card {
     margin: 20px;
-    background-color: #FFF;
+    background-color: #f9f8f6;
     padding: 20px;
     max-width: 500px;
     width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.137);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 header {
@@ -33,7 +35,7 @@ a:hover {
 h1 {
     font-size: 2em;
     text-transform: uppercase;
-    color: #262f35;
+    color: #333333;
     margin: 0;
 }
 
@@ -43,13 +45,13 @@ h1 a {
 
 h2 {
     font-size: 1.5em;
-    color: #637681;
+    color: #333333;
     font-weight: 400;
 }
 
 h3 {
     font-size: 1.2em;
-    color: #637681;
+    color: #333333;
     font-weight: 400;
 }
 
