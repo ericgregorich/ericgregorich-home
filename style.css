@@ -1,6 +1,6 @@
 body {
     font-family: "SF Pro Display", -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
-    background-color: #f0ede8;
+    background-color: #f9f8f6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@ body {
 
 .h-card {
     margin: 20px;
-    background-color: #f9f8f6;
+    background-color: #FFFFFF;
     padding: 20px;
     max-width: 500px;
     width: 100%;
