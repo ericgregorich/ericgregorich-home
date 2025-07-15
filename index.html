@@ -43,8 +43,7 @@
             <section>
                 <h2>Contact Me</h2>
                 <ul>
-                    <li><img src="envelope-solid.svg" width="14" /><a itemprop="sameAs"
-                            href="mailto:egregorich@gmail.com" rel="me" class="u-url">Email</a></li>
+                    <li><img src="envelope-solid.svg" width="14" /><a itemprop="sameAs" href="#" rel="me" class="u-url" id="emailLink">Email</a></li>
                     <li><img src="microblog-brands-solid.svg" width="14" /><a itemprop="sameAs" href="https://micro.blog/ericgregorich"
                             rel="me" class="u-url">Micro.blog</a></li>
                     <li><img src="github-brands-solid.svg" width="14" /><a itemprop="sameAs"
@@ -54,6 +53,18 @@
         </main>
     </div>
     <script src="https://tinylytics.app/embed/VHsuAhL4QAyKMDSF2Evp.js" defer></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var user = "egregorich"; 
+        var domain = "gmail.com"; 
+        var subject = "From EricGregorich.com"; 
+        var email = user + "@" + domain;
+        var emailLinkElement = document.getElementById("emailLink");
+        if (emailLinkElement) {
+            emailLinkElement.href = "mailto:" + email + "?subject=" + encodeURIComponent(subject);
+        }
+    });
+</script>
 </body>
 
 </html>
